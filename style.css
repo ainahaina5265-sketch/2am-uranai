@@ -270,6 +270,30 @@ h2::after {
   line-height: 2.1;
 }
 
+/* ---------- buy button ---------- */
+
+a.buy-btn {
+  display: block;
+  margin-top: 22px;
+  text-align: center;
+  background: linear-gradient(120deg, var(--gold-bright), var(--gold));
+  color: #14162b;
+  text-decoration: none;
+  font-family: "Yu Gothic", sans-serif;
+  font-weight: 700;
+  padding: 15px 20px;
+  border-radius: 999px;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  box-shadow: 0 0 26px rgba(238, 217, 164, 0.25);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+a.buy-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 34px rgba(238, 217, 164, 0.4);
+}
+
 /* ---------- cta ---------- */
 
 .cta {
